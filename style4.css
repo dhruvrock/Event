@@ -82,7 +82,7 @@ body {
 
  
 
-  .countdown div {
+  .countdown div{
     display: block;
     width: 80%;
     padding: 10px;
@@ -90,3 +90,16 @@ body {
 }
 
 
+@media (max-height: 600px) {
+  img {
+    width: 20%;
+  }
+
+}
+
+@media (max-height: 400px) {
+   img {
+    padding-bottom: 30px;
+  }
+
+}
