@@ -80,11 +80,9 @@ body {
     flex-direction: column;
   }
 
-  .countdown div {
-    display: none;
-  }
+ 
 
-  .countdown div:first-child {
+  .countdown div {
     display: block;
     width: 80%;
     padding: 10px;
@@ -92,22 +90,3 @@ body {
 }
 
 
-@media (max-height: 600px) {
-  img {
-    width: 20%;
-  }
-
-  p {
-    display: none;
-  }
-}
-
-@media (max-height: 400px) {
-   img {
-    padding-bottom: 30px;
-  }
-  
-  h1 {
-    display: none;
-  }
-}
